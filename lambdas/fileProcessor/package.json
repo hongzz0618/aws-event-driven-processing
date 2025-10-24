@@ -1,0 +1,14 @@
+{
+  "name": "file-processor",
+  "version": "1.0.0",
+  "description": "Processes S3 Object Created events via EventBridge, publishes to SNS and SQS",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1570.0"
+  }
+}
